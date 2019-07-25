@@ -1,0 +1,19 @@
+class BoardCase
+
+attr_accessor :case_value, :case_position
+
+    #TO DO : la classe a 2 attr_accessor, sa valeur en string (X, O, ou vide), ainsi que son identifiant de case
+    def initialize(case_value_to_update, case_position_to_update)
+        @case_value = value_to_update
+        @case_position = case_position_to_update
+      #TO DO : doit régler sa valeur, ainsi que son numéro de case
+    end
+    def is_empty?
+    #on vérifie si la classe choisie par le joueur est vide
+    	if @case_value != nil
+    #renvoyer à la vue de la grille 
+
+   		end
+	end
+
+end
